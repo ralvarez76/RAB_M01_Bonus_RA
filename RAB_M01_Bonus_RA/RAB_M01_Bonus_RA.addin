@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Delete Backup Files</Text>
+    <Description>Some description for RAB_M01_Bonus_RA</Description>
+    <Assembly>RAB_M01_Bonus_RA.dll</Assembly>
+    <FullClassName>RAB_M01_Bonus_RA.cmdDeleteBackups</FullClassName>
+    <ClientId>4D8CF9E8-1F70-4D97-A500-546E5214A02F</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>RAB_M01_Bonus_RA</Name>
+    <Assembly>RAB_M01_Bonus_RA.dll</Assembly>
+    <FullClassName>RAB_M01_Bonus_RA.App</FullClassName>
+    <ClientId>6BBAB946-1AE2-42C6-B5C8-A7CD2BF76936</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
